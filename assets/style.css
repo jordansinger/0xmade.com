@@ -39,6 +39,7 @@ h1 {
   width: 88px;
 }
 .button {
+  background-color: #333;
   background-image: url(images/gradient.png);
   background-size: cover;
   background-position: center;
