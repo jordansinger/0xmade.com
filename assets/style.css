@@ -1,0 +1,51 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+html, body {
+	height: 100%;
+}
+body {
+  	-webkit-font-smoothing: antialiased;
+  	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  background-color: #000;
+  color: #fff;
+}
+a {
+	color: inherit;
+}
+#content {
+	padding: 0 24px;
+}
+h1 {
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 500;
+	margin: 16px 0 24px;
+}
+#logo {
+  width: 88px;
+}
+.button {
+  background-image: url(images/gradient.png);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+	display: inline-block;
+	padding: 12px 20px;
+	border-radius: 22px;
+	font-size: 16px;
+  font-weight: 500;
+}
